@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 const i18n = new I18n({
     locales: ['en', 'fr'],
     directory: path.join(__dirname, 'locales'),
-    defaultLocale: 'en'
+    defaultLocale: 'fr'
 })
 
 app.use(i18n.init)
